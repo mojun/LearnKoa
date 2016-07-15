@@ -6,6 +6,7 @@ var config = {
     "version": "1.0.0",
     "env": "development",
     "port": 3000,
+    "salt": "xRQKehMduqbXzpX8gIXu0jXBCtdfMu7U",
     "mysql": {
         "im": {
             "host": "127.0.0.1",

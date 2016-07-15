@@ -6,6 +6,7 @@ const crypto = require('crypto');
 const moment = require('moment');
 const Buffer = require('buffer').Buffer;
 const _ = require('lodash');
+var crypto = require('crypto');
 
 var isObject = (thing) => {
     return Object.prototype.toString.call(thing) === '[object Object]';
@@ -21,3 +22,8 @@ exports.jsonParse = (thing) => {
         return {};
     }
 };
+
+var throwError = function (jsonError) {
+    throw new Error(JSON.stringify(jsonError));
+};
+exports.throwError = throwError;

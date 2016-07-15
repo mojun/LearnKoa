@@ -10,5 +10,9 @@
     <orderEntry type="library" name="koa-router-DefinitelyTyped" level="application" />
     <orderEntry type="library" name="lodash-DefinitelyTyped" level="application" />
     <orderEntry type="library" name="redis-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="sequelize-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="node-uuid-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="moment-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="LearnKoa node_modules" level="project" />
   </component>
 </module>

@@ -18,4 +18,12 @@ var im = new Sequelize(config.mysql.im.database,
     }
 );
 
+im.authenticate()
+    .then(function (err) {
+        console.log('mysql建立连接成功.');
+    })
+    .catch(function (err) {
+        console.log('无法连接到数据库: %s', err);
+    });
+
 exports.im = im;
